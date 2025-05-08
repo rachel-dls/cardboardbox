@@ -301,7 +301,6 @@ def run(args=None):
         all_refls[column_name].set_selected(flumpy_index, new_data)
         return all_refls
 
-
     logger.info("-----------------------------------------------------")
     logger.info(f"Opening expt and refl files")
     hkl_list, intensity_list, peak_loc_list, i_s_list, index_list = [], [], [], [], []
